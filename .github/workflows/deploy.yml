@@ -18,8 +18,7 @@ jobs:
 
             - name: Install dependencies
               run: pnpm install
-            - name: Test
-                run: echo "API Token: ${{ secrets.CF_API_TOKEN }}"
+        
             - name: Publish
               uses: cloudflare/wrangler-action@2.0.0
               with:
