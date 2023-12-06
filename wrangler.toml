@@ -10,3 +10,4 @@ account_id = "89dc741c1934698529db29e8efde6d3a"
 binding = "CDN_BUCKET"
 bucket_name = "cdn-bucket"
 preview_bucket_name = "cdn-bucket"
+# please run workflows!
